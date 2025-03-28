@@ -1,0 +1,29 @@
+{
+  "name": "ssx/csp-parser",
+  "type": "library",
+  "keywords": [
+    "csp",
+    "content-security-policy",
+    "parser",
+    "security",
+    "headers",
+    "http",
+    "pci"
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.9"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Scott Robinson",
+      "email": "scott@dor.ky"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ssx\\Csp\\": "src/"
+    }
+  }
+}
