@@ -12,7 +12,7 @@ var_dump($csp->getDirectives());
 
 You can use either `getDirectives()` to return an array of all the processed CSP directives or you can use `getDirective('script-src')` to get a particular type of directive.
 
-Each directive will contain either an array of results or an empty array for a header such as `upgrade-insecure-requests`:
+Each directive will contain either an array of results or an empty array for a directive such as `upgrade-insecure-requests`:
 
 ```  
   "upgrade-insecure-requests" => []
